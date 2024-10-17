@@ -1,0 +1,31 @@
+#apresentation {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+    gap: 1rem;
+
+    h1 {
+        font: var(--text-xl);
+        font-family: 'Londrina outline', sans-serif;
+        color: rgb(56, 56, 56);
+    }
+    
+    .name-diferencial {
+            font-family: 'Roboto', sans-serif;
+            color: var(--gray-500);
+            background-color: rgb(220, 220, 220);
+            padding-block: .5rem;
+            padding-inline: .875rem;
+            border-radius: .5rem;
+            }
+    
+    p {
+        width: 35rem;
+        font: var(--text-md);
+    }
+
+    span {
+        font-style: italic;
+    }
+}

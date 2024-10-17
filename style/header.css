@@ -1,0 +1,33 @@
+#primary {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: .75rem 10rem;
+
+    h1  {
+        font: var(--text-logo);
+        font-family: 'Roboto',sans-serif;
+        color: var(--color-name);
+    }
+
+    ul {
+        display: flex;
+        gap: 16px;
+    }
+    
+    li {
+        font: var(--text-md);
+        border: 1px solid var(--gray-500);
+        border-inline: none;
+        border-top: none;
+        list-style: none;
+        padding-block: 2px;
+    }
+
+    a {
+        color: var(--gray-500);
+        text-decoration: none;
+    }
+    
+}
