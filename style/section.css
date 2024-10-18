@@ -2,30 +2,96 @@
     display: flex;
     flex-direction: column;
     text-align: start;
-    
+    align-items: start;
+    position: relative;
     gap: 1rem;
+    margin-top: 20rem;
 
     h1 {
         font: var(--text-xl);
         font-family: 'Londrina outline', sans-serif;
-        color: rgb(56, 56, 56);
+        color: rgb(0, 0, 0);
+        width: 40rem;
+        
+    }
+
+    .image-wrapper {
+        
+        img {
+            align-self: center;
+            margin-inline: 40rem;
+            width: 35rem;
+            margin: 0;
+            position: absolute;
+            inset: 0;
+            left: 40rem;
+            bottom: 40rem;
+        }
     }
     
-    .name-diferencial {
-            font-family: 'Roboto', sans-serif;
-            color: var(--gray-500);
-            background-color: rgb(220, 220, 220);
-            padding-block: .5rem;
-            padding-inline: .875rem;
-            border-radius: .5rem;
-            }
+    .font-dev {
+        font-family: 'Open sans', sans-serif;
+        font: var(--text-md);
+        color: rgb(114, 26, 114);
+        letter-spacing: .05rem;
+    }
+
+    h1 {
+        font-family: 'Open sans', sans-serif;
+        color: black;
+    }
     
     p {
-        width: 35rem;
+        width: 34rem;
         font: var(--text-md);
+        color: rgb(36, 35, 35);
     }
 
     span {
         font-style: italic;
+    }
+}
+
+.projects {
+    margin-block: 35rem;
+
+    h1 {
+        font: 3rem;
+        font-family: 'Jersey 25', serif;
+        color: rgb(199, 118, 199);
+        letter-spacing: .10rem;
+        text-align: center;
+        margin-block: auto 2rem;
+    }
+    
+    .travelgram {
+        display: flex;
+        justify-content: space-between;
+        font: var(--text-md);
+        color: rgb(208, 128, 233);
+        margin-inline: 5rem;
+    }
+
+    h2 {
+        align-self: center;
+    }
+
+    p {
+        justify-self: end;
+        text-align: end;
+        margin-block: 1rem 1.5rem;
+        padding-inline: 1rem;
+        font: var(--text-sm);
+        color: rgb(126, 124, 124);
+        font-weight: 600;
+    }
+
+    img {
+        display: flex;
+        width: 50rem;
+        height: 40rem;
+        object-fit: cover;
+        justify-self: center;
+        border-radius: 1rem;
     }
 }

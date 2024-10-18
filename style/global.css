@@ -5,15 +5,18 @@
 }
 
 :root {
-    --font-family: 'Roboto', sans-serif;
-    --text-logo: 600 1.25rem/160% var(--font-family);
-    --text-xl: 400 3rem/160% var(--font-family);
-    --text-md: 600 1rem/140% var(--font-family);
-    --text-sm: 400 0.8rem/140% var(--font-family);
+    --font-family: 'Open sans', sans-serif;
+    --text-logo: 600 2rem/160% var(--font-family);
+    --text-xl: 400 3rem/140% var(--font-family);
+    --text-md: 600 1.25rem/140% var(--font-family);
+    --text-sm: 400 1rem/140% var(--font-family);
+
 
 
     --gray-500: #454343;
     --color-name: #000000d0;
+
+    scroll-behavior: smooth;
 }
 
 .container {

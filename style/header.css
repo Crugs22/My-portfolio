@@ -3,26 +3,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-block: .75rem 10rem;
+    margin-block: .75rem 14rem;
 
     h1  {
         font: var(--text-logo);
-        font-family: 'Roboto',sans-serif;
-        color: var(--color-name);
+        font-family: 'Jersey', serif;
+        color: rgb(114, 26, 114);
     }
 
     ul {
         display: flex;
-        gap: 16px;
+        gap: 3rem;
     }
     
     li {
         font: var(--text-md);
+        list-style: none;
+        padding-block: 2px;
+    }
+
+    a:hover {
         border: 1px solid var(--gray-500);
         border-inline: none;
         border-top: none;
-        list-style: none;
-        padding-block: 2px;
     }
 
     a {
