@@ -1,39 +1,30 @@
 #apresentation {
     display: flex;
-    flex-direction: column;
-    text-align: start;
-    align-items: start;
-    position: relative;
     gap: 1rem;
-    margin-top: 20rem;
+    align-items: center;
+    
 
     h1 {
         font: var(--text-xl);
         font-family: 'Londrina outline', sans-serif;
         color: rgb(0, 0, 0);
         width: 40rem;
+        line-height: 1.4;
+        
         
     }
 
-    .image-wrapper {
-        
-        img {
-            align-self: center;
-            margin-inline: 40rem;
-            width: 35rem;
-            margin: 0;
-            position: absolute;
-            inset: 0;
-            left: 40rem;
-            bottom: 40rem;
+    img {
+        width: 25rem;
+        inset: 0;
         }
-    }
     
     .font-dev {
         font-family: 'Open sans', sans-serif;
         font: var(--text-md);
         color: rgb(114, 26, 114);
         letter-spacing: .05rem;
+        line-height: 1.6;
     }
 
     h1 {
@@ -53,7 +44,7 @@
 }
 
 .projects {
-    margin-block: 35rem;
+    margin-block: 10rem;
 
     h1 {
         font: 3rem;

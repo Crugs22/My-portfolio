@@ -19,7 +19,8 @@
     scroll-behavior: smooth;
 }
 
+
 .container {
     margin: 0 auto;
-   max-width: 960px;
+   max-width:60rem;
 }
